@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+body {
+  background: #f0ebf8;
+  color: #8c5e8c;
+  font-family:sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+#buttoncontact:hover{
+background-color: rgb(181, 6, 187) !important;
+color: gainsboro !important;
+}
