@@ -1,7 +1,5 @@
-
-  import { Clock } from "lucide-react";
-  interface CourseCardProps {
-    
+import { Clock } from "lucide-react";
+type CourseCardProps = {
     iconBgColor: string;
     title: string;
     description: string;
@@ -12,7 +10,6 @@
   }
 
   export default function CourseCard({
-  
     iconBgColor,
     title,
     description,
