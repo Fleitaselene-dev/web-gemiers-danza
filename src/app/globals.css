@@ -2,6 +2,10 @@
 @tailwind utilities;
 @tailwind base;
 @tailwind components;
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
 body {
   background: #f0ebf8;
   color: #8c5e8c;
@@ -14,3 +18,43 @@ html {
 background-color: rgb(181, 6, 187) !important;
 color: gainsboro !important;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #a855f7; /* Lila (Tailwind purple-600) */
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 9999px;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 2px 10px rgba(168, 85, 247, 0.2);
+  z-index: 10;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.swiper-pagination-bullet {
+  background-color: #d8b4fe; 
+  opacity: 1;
+  margin-top: 10px;
+    width: 5px;
+  height: 5px;
+  opacity: 1;
+  padding: 4px;
+  
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #9333ea !important; 
+}
+
+.swiper-pagination {
+  bottom: -6px !important;
+  padding-bottom: px;
+}
+
+
