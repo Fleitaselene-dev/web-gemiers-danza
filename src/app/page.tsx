@@ -1,6 +1,8 @@
 import CourseCard from "./components/clases"
 import Hero from "./components/hero"
 import Moments from "./components/moments"
+import Profesionales from "./components/profesores"
+import Promo from "./components/promo"
 import Link from "next/link"
 function Home(){
   return(
@@ -12,6 +14,15 @@ function Home(){
      </div>
      <div>
       <Moments/>
+     </div>
+     <div>
+      <Promo
+  title="¡Primera clase totalmente gratuita!"
+  description="Viví la experiencia Gemiers sin compromiso. Ven a conocer nuestro estudio, profesores y metodología completamente gratis."
+/>
+<div>
+  <Profesionales/>
+</div>
      </div>
      <div className=" bg-gray-50 p-3">
       <h1 className="text-3xl font-bold py-3.5 text-center ">Nuestras Clases</h1>
