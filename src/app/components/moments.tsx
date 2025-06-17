@@ -1,5 +1,5 @@
   "use client";
-  import { Heart, Users, Medal } from "lucide-react"; // íconos opcionales
+  import { Heart, Users, Medal } from "lucide-react"; 
   import AOS from 'aos';
   import 'aos/dist/aos.css';
   import { useEffect } from 'react';

@@ -21,7 +21,7 @@ color: gainsboro !important;
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #a855f7; /* Lila (Tailwind purple-600) */
+  color: #a855f7;
   width: 2rem;
   height: 2rem;
   background-color: white;

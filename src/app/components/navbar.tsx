@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, X } from 'lucide-react'; // Lucide íconos
+import { Menu, X } from 'lucide-react'; 
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,13 +32,14 @@ export default function Navbar() {
           </Link>
         </div>
       </div>
+
       {isOpen && (
-        <div className="md:hidden px-6 pb-4 space-y-4">
+        <div className="md:hidden px-6 pb-4 flex flex-col items-start space-y-4">
           <Link href="/" onClick={() => setIsOpen(false)}>Inicio</Link>
           <Link href="/formulario" onClick={() => setIsOpen(false)}>Inscripción</Link>
           <Link 
             id="buttoncontact"
-            className="inline-block shadow-2xl rounded-3xl p-2 transition-colors duration-300"
+            className="shadow-2xl rounded-3xl px-4 py-2 transition-colors duration-300"
             style={{ color: "#f0ebf8", backgroundColor: "#8c5e8c" }}
             href="https://wa.me/5493705233808"
             target="_blank"
