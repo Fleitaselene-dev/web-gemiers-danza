@@ -34,7 +34,7 @@ export default function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="md:hidden px-6 pb-4 flex flex-col items-start space-y-4">
+        <div className="md:hidden px-6 pb-4 flex flex-col justify-center items-center  space-y-4">
           <Link href="/" onClick={() => setIsOpen(false)}>Inicio</Link>
           <Link href="/formulario" onClick={() => setIsOpen(false)}>Inscripción</Link>
           <Link 
