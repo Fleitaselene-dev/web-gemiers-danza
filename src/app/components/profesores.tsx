@@ -2,7 +2,7 @@ import Profe from "./profes"
 
 export default function Profesionales() {
   return (
-    <section className="py-20 bg-white" id="profesionales">
+    <section className="py-20 " id="profesionales">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold">Nuestro Equipo</h2>
         <p className="text-gray-600 text-lg max-w-xl mx-auto">

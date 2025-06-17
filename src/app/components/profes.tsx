@@ -9,7 +9,7 @@ type ProfeProps = {
 
 export default function Profe({ nombre, descripcion, bio, badge, foto }: ProfeProps) {
   return (
-    <div className="text-center hover:shadow-lg shadow-violet-700 transition-shadow p-4 rounded-lg bg-white">
+    <div className="text-center hover:shadow-violet-700 shadow-2xl  transition-shadow p-4 rounded-lg bg-white">
       <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden bg-gradient-to-br from-purple-200 to-pink-200">
         <Image
           src={foto}

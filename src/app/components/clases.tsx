@@ -20,7 +20,7 @@ type CourseCardProps = {
   }: CourseCardProps) {
     return (
 
-      <div className="bg-white rounded-lg shadow p-6 max-w-sm cursor-pointer transition-all duration-300 ease-in-out hover:shadow-5xl hover:scale-105 hover:bg-purple-100">
+      <div className="rounded-lg shadow p-6 max-w-sm cursor-pointer transition-all duration-300 ease-in-out hover:shadow-5xl hover:scale-105 hover:bg-purple-100">
         <div
           className={`inline-flex p-3 rounded-md ${iconBgColor} mb-4`}
         >
